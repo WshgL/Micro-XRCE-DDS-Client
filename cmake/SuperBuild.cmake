@@ -29,9 +29,9 @@ endif()
 if(NOT microcdr_FOUND)
     ExternalProject_Add(microcdr
         GIT_REPOSITORY
-            https://github.com/eProsima/Micro-CDR.git
+            https://github.com/WshgL/Micro-CDR.git
         GIT_TAG
-            ${_microcdr_tag}
+            8a0383ae468b69d07bae9e7e3d8efef4b18aefb6
         PREFIX
             ${PROJECT_BINARY_DIR}/microcdr
         INSTALL_DIR
